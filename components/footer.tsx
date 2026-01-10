@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-foreground text-primary-foreground py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-2 mb-12">
           {/* Company Info */}
           <div>
             <h3 className="text-lg font-bold mb-4">Kabarwala</h3>
@@ -23,7 +23,9 @@ export default function Footer() {
                   <Link href={`/${link.toLowerCase()}`} className="opacity-80 hover:opacity-100 transition-opacity">
                     {link}
                   </Link>
+                  
                 </li>
+                
               ))}
             </ul>
           </div>
@@ -41,6 +43,37 @@ export default function Footer() {
               ))}
             </ul>
           </div>
+           {/* Services */}
+          <div>
+            <h4 className="font-semibold mb-4">Our Organisation Policy</h4>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link href="/terms-and-conditions" className="opacity-80 hover:opacity-100 transition-opacity">
+                    Terms & Conditions
+                  </Link>
+              </li>
+              <li>
+                <Link href="/shipping-policy" className="opacity-80 hover:opacity-100 transition-opacity">
+                    Shipping Policy
+                  </Link>
+              </li>
+              <li>
+                <Link href="/privacy-security" className="opacity-80 hover:opacity-100 transition-opacity">
+                    Privacy & Security Policy
+                  </Link>
+              </li>
+              <li>
+                <Link href="/return&refund" className="opacity-80 hover:opacity-100 transition-opacity">
+                    Return & Refund Policy
+                  </Link>
+              </li>
+              <li>
+                <Link href="/return-exchange" className="opacity-80 hover:opacity-100 transition-opacity">
+                    Return & Exchange Policy
+                  </Link>
+              </li>
+            </ul>
+          </div>
 
           {/* Contact */}
           <div>
@@ -50,7 +83,10 @@ export default function Footer() {
                 <Instagram size={16} /> Instagram
               </li>
               <li className="flex items-center gap-2 opacity-80">
-                <Phone size={16} /> +91-9135422890, +91-8987262570
+                <Phone size={16} /> +91-9135422890
+              </li>
+              <li className="flex items-center gap-2 opacity-80">
+                <Phone size={16} /> +91-8987262570
               </li>
               <li className="flex items-center gap-2 opacity-80">
                 <Mail size={16} /> bgpkabarwala@gmail.com
