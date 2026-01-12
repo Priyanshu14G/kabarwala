@@ -92,7 +92,7 @@ export default function Projects() {
         initial="hidden"
         animate="visible"
         variants={containerVariants}
-        className="pt-40 pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center relative overflow-hidden"
+        className="pt-20 pb-4 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center relative overflow-hidden"
       >
         <div className="absolute inset-0 -z-10 overflow-hidden">
           <motion.div
@@ -107,7 +107,7 @@ export default function Projects() {
           ></motion.div>
         </div>
 
-        <motion.h1 variants={itemVariants} className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-foreground">
+        <motion.h1 variants={itemVariants} className="text-3xl md:text-3xl lg:text-5xl font-bold mb-6 text-foreground">
           Upcoming <span className="text-gradient">Projects</span>
         </motion.h1>
         <motion.p variants={itemVariants} className="text-xl text-foreground/70 max-w-3xl mx-auto">
@@ -115,7 +115,7 @@ export default function Projects() {
         </motion.p>
       </motion.section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <section className="py-4 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <motion.div
           initial="hidden"
           whileInView="visible"

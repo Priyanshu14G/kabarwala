@@ -24,7 +24,7 @@ export default function About() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
+      <section className="pt-32 pb-8 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6">About Kabarwala</h1>
         <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
           Our Mission & Vision for Sustainable Urban Futures
@@ -32,7 +32,7 @@ export default function About() {
       </section>
 
       {/* Story */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <section className="py-2 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold mb-6">Our Story</h2>
