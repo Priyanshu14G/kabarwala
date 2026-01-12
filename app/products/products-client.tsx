@@ -75,9 +75,9 @@ export default function ProductsClient({ products }: { products: Product[] }) {
             </div>
           </div>
 
-          <div className="h-96 rounded-2xl overflow-hidden">
+          <div className="h-96 w-170 rounded-2xl overflow-auto">
             <img
-              src="/sustainable-marketplace.jpg"
+              src="/PICTURE4.jpg"
               className="w-full h-full object-cover"
             />
           </div>

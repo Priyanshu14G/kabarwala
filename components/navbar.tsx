@@ -57,7 +57,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* LOGO */}
           <Link href="/" className="flex items-center gap-2 text-xl font-bold">
-            <motion.div className="w-8 h-8 bg-gradient-to-br from-primary to-primary/60 rounded-lg" />
+            <img src="/LOGO_6.png" className="w-11 h-11" /><span><img src="/logo5.png" className="w-10 h-10" /></span>
             <span className="hidden sm:inline text-foreground">Kabarwala</span>
           </Link>
 

@@ -141,7 +141,7 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.9, rotateY: 20 }}
             animate={{ opacity: 1, scale: 1, rotateY: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="relative h-96 lg:h-full min-h-96 rounded-3xl overflow-hidden group"
+            className="relative h-96 lg:h-full min-h-96 rounded-2xl overflow-hidden group"
           >
             <img
               src="/sustainable-waste-management-city.jpg"
