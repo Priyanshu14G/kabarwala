@@ -75,7 +75,7 @@ export default function Blog() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
+      <section className="pt-16 pb-4 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6">Blog & Insights</h1>
         <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
           Latest news, tips, and stories on waste management and sustainability
@@ -83,7 +83,7 @@ export default function Blog() {
       </section>
 
       {/* Category Filter */}
-      <section className="py-8 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <section className="py-2 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="flex flex-wrap gap-3 justify-center">
           {categories.map((category) => (
             <button
@@ -102,7 +102,7 @@ export default function Blog() {
       </section>
 
       {/* Blog Grid */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <section className="py-8 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredPosts.map((post, idx) => (
             <Link key={idx} href={`/blog/${post.slug}`} className="group">

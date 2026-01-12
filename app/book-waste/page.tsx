@@ -106,7 +106,7 @@ export default function BookWaste() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-4 px-4 max-w-4xl mx-auto text-center">
+      <section className="pt-16 pb-4 px-4 max-w-4xl mx-auto text-center">
         <h1 className="text-5xl font-bold mb-6">Book Your Waste Pickup</h1>
         <p className="text-xl text-foreground/70">
           Easy, convenient, and eco-friendly waste collection at your doorstep
@@ -137,7 +137,7 @@ export default function BookWaste() {
             {/* EXISTING FIELDS (UNCHANGED) */}
             <div>
               <p className="block text-sm font-semibold mb-2">Click on the following button to check the price list</p>
-              <Button><Link href={"https://drive.google.com/drive/folders/11VvKBYaeDKKIm2pW_ge4tLxDIbkWqE8m?usp=sharing"}>Check Price List</Link></Button>
+              <Button><Link href={"https://drive.google.com/file/d/1Y1ka6qXKorYHrXysEoGtOPYCEfpXxMaT/view?usp=drive_link"}>Check Price List</Link></Button>
             </div>
             <div>
               {" "}
