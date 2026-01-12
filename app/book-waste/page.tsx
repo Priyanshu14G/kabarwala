@@ -143,7 +143,7 @@ export default function BookWaste() {
               {" "}
               <label className="block text-sm font-semibold mb-2">
                 {" "}
-                Full Name{" "}
+                Full Name <span className="text-red-600">*</span>
               </label>{" "}
               <input
                 type="text"
@@ -158,7 +158,7 @@ export default function BookWaste() {
               {" "}
               <label className="block text-sm font-semibold mb-2">
                 {" "}
-                Phone Number{" "}
+                Mobile Number<span className="text-red-600">*</span>{" "}
               </label>{" "}
               <input
                 type="tel"
@@ -173,7 +173,7 @@ export default function BookWaste() {
               {" "}
               <label className="block text-sm font-semibold mb-2">
                 {" "}
-                Email{" "}
+                Email ID{" "}
               </label>{" "}
               <input
                 type="email"
@@ -188,7 +188,7 @@ export default function BookWaste() {
               {" "}
               <label className="block text-sm font-semibold mb-2">
                 {" "}
-                Ward Number{" "}
+                Ward Number<span className="text-red-600">*</span>{" "}
               </label>{" "}
               <input
                 type="text"
@@ -198,25 +198,12 @@ export default function BookWaste() {
                 className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary bg-input"
               />{" "}
             </div>
+            
             <div>
               {" "}
               <label className="block text-sm font-semibold mb-2">
                 {" "}
-                Nearest Landmark{" "}
-              </label>{" "}
-              <textarea
-                name="landmark"
-                value={formData.landmark}
-                onChange={handleChange}
-                className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary bg-input min-h-24"
-                required
-              />{" "}
-            </div>
-            <div>
-              {" "}
-              <label className="block text-sm font-semibold mb-2">
-                {" "}
-                Address{" "}
+                Address<span className="text-red-600">*</span>{" "}
               </label>{" "}
               <textarea
                 name="address"
@@ -226,13 +213,27 @@ export default function BookWaste() {
                 required
               />{" "}
             </div>
+            <div>
+              {" "}
+              <label className="block text-sm font-semibold mb-2">
+                {" "}
+                Nearest Landmark<span className="text-red-600">*</span>{" "}
+              </label>{" "}
+              <input
+                name="landmark"
+                value={formData.landmark}
+                onChange={handleChange}
+                className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary bg-input"
+                required
+              />{" "}
+            </div>
             {/* NEW: DONATE / SELL */}
            
             <div>
               {" "}
               <label className="block text-sm font-semibold mb-2">
                 {" "}
-                You want to donate or sell{" "}
+                You want to donate or sell<span className="text-red-600">*</span>{" "}
               </label>{" "}
               <select
                 name="donationType"
@@ -272,7 +273,7 @@ export default function BookWaste() {
               {" "}
               <label className="block text-sm font-semibold mb-2">
                 {" "}
-                Your waste is segregated ?*
+                Your waste is segregated ?<span className="text-red-600">*</span>
               </label>{" "}
               <select
                 name="segregated"
@@ -310,7 +311,7 @@ export default function BookWaste() {
               {" "}
               <label className="block text-sm font-semibold mb-2">
                 {" "}
-                Waste Type{" "}
+                Type of waste<span className="text-red-600">*</span>{" "}
               </label>{" "}
               <select
                 name="wasteType"
@@ -334,7 +335,7 @@ export default function BookWaste() {
               {" "}
               <label className="block text-sm font-semibold mb-2">
                 {" "}
-                Collection Time{" "}
+                Time of Collection<span className="text-red-600">*</span>{" "}
               </label>{" "}
               <select
                 name="collectionTime"
@@ -354,7 +355,7 @@ export default function BookWaste() {
               </select>{" "}
             </div>
 
-            <div>
+            {/* <div>
               {" "}
               <label className="block text-sm font-semibold mb-2">
                 {" "}
@@ -368,7 +369,7 @@ export default function BookWaste() {
                 className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary bg-input"
                 required
               />{" "}
-            </div>
+            </div> */}
 
             <button
               type="submit"

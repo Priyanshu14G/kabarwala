@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Instagram } from "lucide-react"
 
 export default function Footer() {
   return (
-    <footer className="bg-foreground text-primary-foreground py-16">
+    <footer className="bg-foreground text-primary-foreground py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-2 mb-12">
           {/* Company Info */}
@@ -99,7 +99,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-primary-foreground/20 pt-8 text-center text-sm opacity-70">
+        <div className="border-t border-primary-foreground/20 pt-2 text-center text-sm opacity-70">
           <p>&copy; 2025 Kabarwala – Bascone Foundation. All rights reserved.</p>
         </div>
       </div>
