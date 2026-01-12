@@ -76,7 +76,7 @@ export default function Blog() {
 
       {/* Hero Section */}
       <section className="pt-16 pb-4 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6">Blog & Insights</h1>
+        <h1 className="text-3xl md:text-3xl lg:text-5xl font-bold mb-4">Blog & Insights</h1>
         <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
           Latest news, tips, and stories on waste management and sustainability
         </p>

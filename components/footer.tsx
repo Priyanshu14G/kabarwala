@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Mail, Phone, MapPin, Instagram } from "lucide-react"
+import { Mail, Phone, MapPin, Instagram, Globe } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -94,6 +94,15 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2 opacity-80">
                 <MapPin size={16} /> Bhagalpur, Bihar-812001, India
+              </li>
+              <li className="flex items-center gap-2 opacity-80">
+                <Globe size={16} /> https://basconfoundation.com
+              </li>
+              <li className="flex items-center gap-2 opacity-80">
+                <Globe size={16} /> https://www.sampurncare.com/
+              </li>
+              <li className="flex items-center gap-2 opacity-80">
+                <Globe size={16} /> https://kabarwala.com
               </li>
             </ul>
           </div>

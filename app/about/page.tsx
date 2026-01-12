@@ -24,8 +24,8 @@ export default function About() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-14 pb-2 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6">About Kabarwala</h1>
+      <section className="pt-18 pb-2 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
+        <h1 className="text-3xl md:text-3xl lg:text-5xl font-bold mb-4">About Kabarwala</h1>
         <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
           Our Mission & Vision for Sustainable Urban Futures
         </p>
