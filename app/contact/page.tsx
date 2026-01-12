@@ -74,7 +74,7 @@ export default function Contact() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 max-w-4xl mx-auto text-center px-4">
+      <section className="pt-16 pb-8 max-w-4xl mx-auto text-center px-4">
         <h1 className="text-5xl font-bold mb-6">Get in Touch</h1>
         <p className="text-xl text-foreground/70">
           We'd love to hear from you. Reach out anytime.
@@ -82,7 +82,7 @@ export default function Contact() {
       </section>
 
       {/* Contact Info */}
-      <section className="py-12 max-w-7xl mx-auto px-4">
+      <section className="py-2 max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <InfoCard icon={Phone} title="Phone" value="+91-9135422890, +91-8987262570" />
           <InfoCard icon={Mail} title="Email" value=" bgpkabarwala@gmail.com" />
