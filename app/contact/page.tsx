@@ -140,8 +140,8 @@ Bihar, PIN - 812001, INDIA
           {/* Map & Social */}
           <div className="space-y-6">
             <iframe
-              className="w-full h-96 rounded-xl border"
-              src="https://www.google.com/maps?q=Delhi&output=embed"
+              className="w-full h-110 mt-16 rounded-xl border"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.4935368075908!2d87.000301!3d25.253978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f0361fd177aca9%3A0xc0d15a7f376adbff!2sTilka%20Manjhi%20Chowk%2C%20Katahalbari%2C%20Khanjarpur%2C%20Bhagalpur%2C%20Bihar%20812001!5e0!3m2!1sen!2sin!4v1768628520974!5m2!1sen!2sin"
               loading="lazy"
             />
 
